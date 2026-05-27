@@ -1,0 +1,16 @@
+# Pythonの不要なキャッシュファイル
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Jupyter Notebookのバックアップファイル
+.ipynb_checkpoints/
+
+# uvの仮想環境（これを入れないとGitHubがパンクします）
+.venv/
+
+# 👇 ここに今回のモデル除外の設定を追加します
+models/
+*.pth
+*.pkl
+*.onnx
